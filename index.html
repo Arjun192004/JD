@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simba Apparel EPZ Ltd. — Digital Card</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: #e9e6e0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    padding: 20px;
+  }
+  .card {
+    background:#ffffff;
+    width:100%;
+    max-width:420px;
+    border-radius:16px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,0.25);
+  }
+  .card-top {
+    padding:28px 24px 20px;
+  }
+  .emblem {
+    width:70px;
+    height:70px;
+    margin-bottom:14px;
+  }
+  .company {
+    font-size:26px;
+    font-weight:bold;
+    color:#1B2A4A;
+    letter-spacing:0.5px;
+    line-height:1.2;
+  }
+  .division {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    color:#222;
+    margin-top:4px;
+  }
+  .divider {
+    height:1px;
+    background:#ddd;
+    margin:18px 0;
+  }
+  .name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:19px;
+    font-weight:bold;
+    color:#111;
+  }
+  .role {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color:#333;
+    margin-top:2px;
+  }
+  .contacts {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:20px;
+    font-size:15px;
+    color:#222;
+    line-height:1.9;
+  }
+  .contacts a {
+    color:#1B2A4A;
+    text-decoration:none;
+    font-weight:bold;
+  }
+  .contacts .label {
+    color:#777;
+    font-weight:normal;
+    display:inline-block;
+    width:50px;
+  }
+  .actions {
+    display:flex;
+    gap:10px;
+    margin-top:22px;
+  }
+  .btn {
+    flex:1;
+    text-align:center;
+    padding:12px 0;
+    border-radius:8px;
+    font-family: Arial, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#fff;
+  }
+  .btn.call { background:#1B2A4A; }
+  .btn.mail { background:#C49A3C; }
+  .footer {
+    background:#3a3a3a;
+    color:#d9a83b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+    text-align:center;
+    padding:16px 20px;
+    line-height:1.6;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="card-top">
+      <svg class="emblem" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="100,15 112,45 130,20 132,52 155,32 148,63 178,52 162,80 192,80 168,100 192,120 162,120 178,148 148,137 155,168 132,148 130,180 112,155 100,185 88,155 70,180 68,148 45,168 52,137 22,148 38,120 8,120 32,100 8,80 38,80 22,52 52,63 45,32 68,52 70,20 88,45"
+          fill="none" stroke="#1B2A4A" stroke-width="3"/>
+        <circle cx="100" cy="100" r="38" fill="none" stroke="#1B2A4A" stroke-width="3"/>
+        <circle cx="88" cy="92" r="5" fill="#1B2A4A"/>
+        <circle cx="112" cy="92" r="5" fill="#1B2A4A"/>
+        <polygon points="92,108 108,108 100,122" fill="none" stroke="#1B2A4A" stroke-width="3"/>
+        <line x1="78" x2="68" y1="125" y2="140" stroke="#1B2A4A" stroke-width="3"/>
+        <line x1="90" x2="84" y1="128" y2="145" stroke="#1B2A4A" stroke-width="3"/>
+        <line x1="110" x2="116" y1="128" y2="145" stroke="#1B2A4A" stroke-width="3"/>
+        <line x1="122" x2="132" y1="125" y2="140" stroke="#1B2A4A" stroke-width="3"/>
+      </svg>
+      <div class="company">SIMBA APPAREL EPZ LTD.</div>
+      <div class="division">Export Processing Zone</div>
+
+      <div class="divider"></div>
+
+      <div class="name">JANARDANAN MYLIYAT (JD)</div>
+      <div class="role">Director</div>
+
+      <div class="contacts">
+        <div><span class="label">Tel</span><a href="tel:+254731233675">+254 731 233675</a></div>
+        <div><span class="label">Mob</span><a href="tel:+254707949977">+254 707 949977</a></div>
+        <div><span class="label">P</span><a href="tel:+254733888573">+254 733 888573</a></div>
+        <div><span class="label">Email</span><a href="mailto:jd@simbaepz.com">jd@simbaepz.com</a></div>
+      </div>
+
+      <div class="actions">
+        <a class="btn call" href="tel:+254707949977">Call</a>
+        <a class="btn mail" href="mailto:jd@simbaepz.com">Email</a>
+      </div>
+    </div>
+    <div class="footer">
+      P.O. Box 93577 – 80102, Refinery Road, Changamwe<br>
+      Mombasa, Kenya
+    </div>
+  </div>
+</body>
+</html>
